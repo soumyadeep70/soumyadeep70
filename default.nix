@@ -61,49 +61,12 @@ let
     );
 in
   pkgs.writeText "README.md" ''
-    <h1 align=center> ✨ Soumyadeep Dash ✨ </h1>
-
-    <p align=center>
-    <img width="200" height="200" src="https://media1.tenor.com/m/v1dPoOluqiwAAAAC/ferris-rust.gif">
-    </p>
-
-    <h2 align=center> Pinch bugs, not people. </h2>
-    <h3 align=center> “Merged PR > social life.” </h3>
-    <p align=center> Professional overthinker, part-time hacker </p>
-
-    |      **Category**      |                             **Tech Stack**                                |
-    |------------------------|---------------------------------------------------------------------------|
-    |  Languages             | ${mkBadgeList [ "Rust" "C" "C++" "Python" "Java" "Bash" ]}                |
-    |  Frameworks & Toolkits | ${mkBadgeList [ "Nix" "NextJS" "NumPy" "Pandas" "Matplotlib" "OpenCV" ]}  |
-    |  Productivity Tools    | ${mkBadgeList [ "NixOS" "Arch" "Debian" "NeoVim" "tmux" "Zen" "Notion" ]} |
+    👋 Hi, I'm a Backend Developer focused on building scalable, reliable systems and clean APIs. Passionate about writing maintainable code and solving real engineering problems. Always learning, always shipping.
 
 
-    ## ⭐️ About me ⭐️
-
-    <h3 align=center> 🏃‍♂️ <i> Hustler Life Forever </i> 🥤 </h3>
-
-    🦀 **Born Rustacean**
-
-    🚀 **Performance & Low-Level Enthusiast**
-
-    ⚙️ **Open-source Contributor**
-
-    🔍 **Loves Understanding Systems More Than Just Using Them**
-
-    📚 **Always Learning, Always Improving**
-
-    **CV: coming soon**
-
-
-    ## 📊 GitHub Stats (Even I'm Surprised): 📈
-
-    ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=soumyadeep70&theme=github_dark)
-
-    ![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=soumyadeep70&theme=github_dark) 
-    ![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=soumyadeep70&theme=github_dark)
-
-
-    ## 📚 My Favourite Books on Computing ✍️
-    
-    **coming soon**
+    |      **Category**      |                             **Tech Stack**                                         |
+    |------------------------|------------------------------------------------------------------------------------|
+    |  Languages             | ${mkBadgeList [ "Rust" "C" "C++" "Typescript" "Python" "Java" "Bash" ]}            |
+    |  Frameworks & Toolkits | ${mkBadgeList [ "Nix" "NextJS" "NumPy" "Pandas" "Matplotlib" "OpenCV" "Docker" ]}  |
+    |  Productivity Tools    | ${mkBadgeList [ "NixOS" "Arch" "Debian" "NeoVim" "tmux" "Zen" "Notion" ]}          |
   ''
